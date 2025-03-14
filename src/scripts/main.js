@@ -3,7 +3,7 @@
 const list = document.querySelector('.gallery__list');
 const largeImg = document.getElementById('largeImg');
 
-list.addEventListener('click', ( event ) => {
+list.addEventListener('click', ( e ) => {
   event.preventDefault();
 
   const listItem = event.target.closest('.list-item');
